@@ -47,8 +47,8 @@ import json
 #     print(resposta)
 
 
-# json.dump((input("Usuário: "), getpass.getpass("Senha: ")), open("donadagrub.json", "w"))
+# json.dump((input("Usuário: "), getpass.getpass("Senha: ")), open("files/donadagrub.json", "w"))
 #
-# usuario, senha = json.load(open("donadagrub.json"))
+# usuario, senha = json.load(open("files/donadagrub.json"))
 #
 # print(usuario, " ", senha)

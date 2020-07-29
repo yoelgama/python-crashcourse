@@ -1,3 +1,6 @@
+import getpass
+import json
+
 # with open("files/pi_digits.txt") as file:
 #     content = file.read()
 #     print(content.rstrip())
@@ -30,16 +33,22 @@
 # else:
 #     print("No, sorry")
 
-try:
-    dividendo = int(input("dividendo: "))
-    print("/")
-    divisor = int(input("divisor: "))
-except ValueError:
-    print("Vai dividir letra, arrombado?")
-else:
-    try:
-        resposta = dividendo / divisor
-    except ZeroDivisionError:
-        print("You funking donkey")
-    else:
-        print(resposta)
+# try:
+#     dividendo = int(input("dividendo: "))
+#     print("/")
+#     divisor = int(input("divisor: "))
+#     resposta = dividendo / divisor
+# except ValueError:
+#     print("Vai dividir letra, arrombado?")
+#
+# except ZeroDivisionError:
+#     print("You funking donkey")
+# else:
+#     print(resposta)
+
+
+# json.dump((input("Usuário: "), getpass.getpass("Senha: ")), open("donadagrub.json", "w"))
+#
+# usuario, senha = json.load(open("donadagrub.json"))
+#
+# print(usuario, " ", senha)
